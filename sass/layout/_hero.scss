@@ -1,12 +1,16 @@
 .hero {
-  background-repeat: no-repeat;
+  // width: 1600px;
+  margin-left: auto;
+  margin-left: auto;
+  background-repeat: round;
   background-image: linear-gradient(
       to right,
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
     url(../img/hero1200.jpg);
+  // background-position: center;
 }
-.container-items-order {
-  display: flex;
-}
+// .container-items-order {
+//   // width: 1200px;
+// }
