@@ -1,3 +1,14 @@
-header {
-  background: red;
-}
+// BASE
+@import "./base/common";
+@import "./base/container";
+
+// // UTILS
+@import "./utils/variables";
+
+// // COMPONENT
+@import "./component/btn-hero";
+
+// // LAYOUT
+@import "./layout/header";
+@import "./layout/hero";
+@import "./layout/footer";

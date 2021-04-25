@@ -1,0 +1,22 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  // color: var(--mostly-used-color);
+  background: #fffeeb;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+}
