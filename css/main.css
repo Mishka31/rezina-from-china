@@ -65,17 +65,24 @@ a {
 
 .header {
   outline: 1px solid red;
+  height: auto;
 }
 
 .header-nav {
+  padding-top: 15px;
+  padding-bottom: 15px;
   display: flex;
-  justify-content: space-between;
   text-align: center;
+  justify-content: space-between;
 }
 
 .nav-logo-container {
-  margin-top: auto;
-  margin-bottom: auto;
+  display: flex;
+  align-items: center;
+}
+
+.con-log {
+  display: flex;
 }
 
 .nav-pages {
@@ -83,14 +90,46 @@ a {
   justify-content: space-around;
   width: 400px;
   padding: 0;
+  margin: 0px;
+  align-items: center;
+}
+
+.nead-contacts {
+  display: flex;
+}
+
+.nav-contacts {
+  margin: 0px;
   margin-top: auto;
   margin-bottom: auto;
+}
+
+.nav-contact-mail {
+  margin: 0px;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-left: 25px;
+}
+
+.contact-name {
+  margin-top: 0px;
+  margin-bottom: 7px;
+}
+
+.item-tel {
+  margin-bottom: 5px;
 }
 
 .hero {
   margin-left: auto;
   margin-left: auto;
   background-repeat: round;
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/hero1200.jpg);
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/hero/hero1200.jpg);
+}
+
+.product-link {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
 }
 /*# sourceMappingURL=main.css.map */
