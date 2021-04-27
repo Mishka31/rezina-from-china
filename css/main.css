@@ -64,7 +64,8 @@ a {
 }
 
 .header {
-  outline: 1px solid red;
+  position: relative;
+  z-index: 1;
   height: auto;
 }
 
@@ -121,15 +122,55 @@ a {
 }
 
 .hero {
+  width: 1600px;
+  height: 900px;
+  margin-top: -40px;
   margin-left: auto;
-  margin-left: auto;
+  margin-right: auto;
   background-repeat: round;
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/hero/hero1200.jpg);
+  background-image: url(../img/hero/hero1200.png);
+  background-size: 100% 100%;
+  background-position: center;
+}
+
+.container-items-order {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0px;
+}
+
+.first-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.second-wrap {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .product-link {
-  width: 250px;
-  height: 250px;
+  margin: 10px;
+  width: 221px;
+  height: 221px;
   border-radius: 50%;
+  opacity: 70%;
+  box-shadow: 0 0px 0px rgba(0, 0, 0, 0.9);
+  border: 20px solid rgba(248, 176, 21, 0.1);
+  transition: border, opacity 0.5s;
+}
+
+.product-link:hover {
+  opacity: 90%;
+  border: 0px solid rgba(248, 176, 21, 0.1);
+  transition: border, 0.5s;
+  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.9);
+}
+
+.blur {
+  height: 100%;
+  backdrop-filter: blur(5px) saturate(120%) contrast(100%);
 }
 /*# sourceMappingURL=main.css.map */
