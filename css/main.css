@@ -70,7 +70,7 @@ a {
 }
 
 .header-nav {
-  padding-top: 15px;
+  padding-top: 30px;
   padding-bottom: 15px;
   display: flex;
   text-align: center;
@@ -80,17 +80,10 @@ a {
 .nav-logo-container {
   align-items: center;
   font-family: "Shadows Into Light", cursive;
-  font-size: 46px;
+  font-weight: 700;
+  font-size: 56px;
   line-height: 1.014;
   letter-spacing: 0.16em;
-}
-
-.title-under-logo {
-  font-family: "Comfortaa", cursive;
-  font-size: 18px;
-  font-weight: 700;
-  margin-top: -15px;
-  letter-spacing: 0em;
 }
 
 .con-log {
@@ -144,17 +137,55 @@ a {
   margin: 0px;
   margin-top: auto;
   margin-bottom: auto;
-  padding-left: 25px;
+  padding-left: 45px;
 }
 
 .contact-name {
   margin-top: 0px;
-  margin-bottom: 7px;
+  font-size: 18px;
+  margin-bottom: 12px;
+  color: #491212;
+}
+
+.item-tel-mts {
+  display: flex;
+  align-items: center;
+  color: #8f7171;
+  margin-bottom: 12px;
+}
+
+.item-tel-life {
+  display: flex;
+  align-items: center;
   color: #8f7171;
 }
 
-.item-tel {
-  margin-bottom: 5px;
+.item-svg-mail {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  color: #8f7171;
+}
+
+.item-svg {
+  margin-right: 8px;
+}
+
+.hover:hover,
+.hover:focus {
+  color: #403dff;
+  fill: #403dff;
+}
+
+.sad {
+  fill: #8f7171;
+  vertical-align: middle;
+}
+
+.text-lang {
+  font-family: "Comfortaa", cursive;
+  font-weight: 700;
+  margin: 0;
 }
 
 .hero {

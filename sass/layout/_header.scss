@@ -5,7 +5,7 @@
   height: auto;
 }
 .header-nav {
-  padding-top: 15px;
+  padding-top: 30px;
   padding-bottom: 15px;
   display: flex;
   text-align: center;
@@ -14,18 +14,19 @@
 .nav-logo-container {
   align-items: center;
   font-family: "Shadows Into Light", cursive;
-  font-size: 46px;
+  font-weight: 700;
+  font-size: 56px;
   line-height: 1.014;
   letter-spacing: 0.16em;
 }
-.title-under-logo {
-  font-family: "Comfortaa", cursive;
-  font-size: 18px;
-  font-weight: 700;
-  // line-height: 1.014;
-  margin-top: -15px;
-  letter-spacing: 0em;
-}
+// .title-under-logo {
+//   font-family: "Comfortaa", cursive;
+//   font-size: 18px;
+//   font-weight: 700;
+//   // line-height: 1.014;
+//   margin-top: -15px;
+//   letter-spacing: 0em;
+// }
 .con-log {
   display: flex;
 }
@@ -70,13 +71,50 @@
   margin: 0px;
   margin-top: auto;
   margin-bottom: auto;
-  padding-left: 25px;
+  padding-left: 45px;
 }
 .contact-name {
   margin-top: 0px;
-  margin-bottom: 7px;
+  font-size: 18px;
+  margin-bottom: 12px;
+  color: rgb(73, 18, 18);
+}
+.item-tel-mts {
+  display: flex;
+  align-items: center;
+  color: rgb(143, 113, 113);
+  margin-bottom: 12px;
+}
+.item-tel-life {
+  display: flex;
+  align-items: center;
   color: rgb(143, 113, 113);
 }
-.item-tel {
-  margin-bottom: 5px;
+.item-svg-mail {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  color: rgb(143, 113, 113);
+}
+.item-svg {
+  margin-right: 8px;
+  // fill: rgb(40, 133, 255);
+}
+
+.hover:hover,
+.hover:focus {
+  color: rgb(64, 61, 255);
+  fill: rgb(64, 61, 255);
+}
+.lang {
+  // display: flex;
+}
+.sad {
+  fill: rgb(143, 113, 113);
+  vertical-align: middle;
+}
+.text-lang {
+  font-family: "Comfortaa", cursive;
+  font-weight: 700;
+  margin: 0;
 }
