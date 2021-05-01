@@ -12,11 +12,36 @@
   justify-content: space-between;
 }
 .nav-logo-container {
-  display: flex;
   align-items: center;
+  font-family: "Shadows Into Light", cursive;
+  font-size: 46px;
+  line-height: 1.014;
+  letter-spacing: 0.16em;
+}
+.title-under-logo {
+  font-family: "Comfortaa", cursive;
+  font-size: 18px;
+  font-weight: 700;
+  // line-height: 1.014;
+  margin-top: -15px;
+  letter-spacing: 0em;
 }
 .con-log {
   display: flex;
+}
+.u-title {
+  font-family: "Shadows Into Light", cursive;
+  color: rgb(255, 225, 0);
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 0.13em;
+}
+.a-title {
+  font-family: "Shadows Into Light", cursive;
+  color: rgb(40, 133, 255);
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: 0.13em;
 }
 .nav-pages {
   display: flex;
@@ -26,8 +51,13 @@
   margin: 0px;
   align-items: center;
 }
-// .nav-pages-item {
-// }
+.nav-pages-item {
+  font-family: "Comfortaa", cursive;
+  color: rgb(143, 113, 113);
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+}
 .nead-contacts {
   display: flex;
 }
@@ -45,6 +75,7 @@
 .contact-name {
   margin-top: 0px;
   margin-bottom: 7px;
+  color: rgb(143, 113, 113);
 }
 .item-tel {
   margin-bottom: 5px;

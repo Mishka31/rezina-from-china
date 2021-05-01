@@ -78,12 +78,39 @@ a {
 }
 
 .nav-logo-container {
-  display: flex;
   align-items: center;
+  font-family: "Shadows Into Light", cursive;
+  font-size: 46px;
+  line-height: 1.014;
+  letter-spacing: 0.16em;
+}
+
+.title-under-logo {
+  font-family: "Comfortaa", cursive;
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: -15px;
+  letter-spacing: 0em;
 }
 
 .con-log {
   display: flex;
+}
+
+.u-title {
+  font-family: "Shadows Into Light", cursive;
+  color: #ffe100;
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 0.13em;
+}
+
+.a-title {
+  font-family: "Shadows Into Light", cursive;
+  color: #2885ff;
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: 0.13em;
 }
 
 .nav-pages {
@@ -93,6 +120,14 @@ a {
   padding: 0;
   margin: 0px;
   align-items: center;
+}
+
+.nav-pages-item {
+  font-family: "Comfortaa", cursive;
+  color: #8f7171;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: -0.03em;
 }
 
 .nead-contacts {
@@ -115,6 +150,7 @@ a {
 .contact-name {
   margin-top: 0px;
   margin-bottom: 7px;
+  color: #8f7171;
 }
 
 .item-tel {
@@ -133,10 +169,20 @@ a {
   background-position: center;
 }
 
+.hero-title {
+  padding-top: 100px;
+  font-family: "Comfortaa", cursive;
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: -15px;
+  letter-spacing: 0em;
+}
+
 .container-items-order {
   width: 1000px;
-  margin-left: auto;
+  margin-top: 100px;
   margin-right: auto;
+  margin-left: auto;
   padding-left: 0px;
 }
 
@@ -167,6 +213,11 @@ a {
   border: 0px solid rgba(248, 176, 21, 0.1);
   transition: border, 0.5s;
   box-shadow: 0 20px 20px rgba(0, 0, 0, 0.9);
+}
+
+.hero-items {
+  text-align: center;
+  align-items: center;
 }
 
 .blur {
