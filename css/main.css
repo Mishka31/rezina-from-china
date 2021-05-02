@@ -147,20 +147,17 @@ a {
   margin-top: 0px;
   font-size: 18px;
   margin-bottom: 8px;
-  color: #491212;
 }
 
 .item-tel-mts {
   display: flex;
   align-items: center;
-  color: #8f7171;
   margin-bottom: 10px;
 }
 
 .item-tel-life {
   display: flex;
   align-items: center;
-  color: #8f7171;
 }
 
 .item-mail {
@@ -179,16 +176,21 @@ a {
 
 .hover {
   color: #8f7171;
-  fill: #8f7171;
+  fill: #d5c2c2;
   transition: 0.5s;
 }
 
 .hover:hover,
 .hover:focus {
-  fill: #403dff;
-  color: #5952e9;
+  fill: black;
+  color: black;
   text-shadow: 0px 8px 12px rgba(153, 0, 0, 0.75);
-  transition: text-shadow 0.4s;
+  transition: text-shadow, 0.3s;
+}
+
+.push-up:hover,
+.push-up:focus {
+  margin-bottom: 5px;
 }
 
 .lang {
@@ -251,6 +253,14 @@ a {
 .second-wrap {
   display: flex;
   flex-wrap: wrap;
+}
+
+.title-over-prod {
+  opacity: 10%;
+}
+
+.title-over-prod:hover {
+  opacity: 100%;
 }
 
 .product-link {

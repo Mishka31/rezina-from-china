@@ -39,6 +39,12 @@
   display: flex;
   flex-wrap: wrap;
 }
+.title-over-prod {
+  opacity: 10%;
+}
+.title-over-prod:hover {
+  opacity: 100%;
+}
 .product-link {
   margin: 10px;
   width: 221px;

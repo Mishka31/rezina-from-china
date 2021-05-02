@@ -72,19 +72,19 @@
   margin-top: 0px;
   font-size: 18px;
   margin-bottom: 8px;
-  color: rgb(73, 18, 18);
+  // color: rgb(73, 18, 18);
 }
 .item-tel-mts {
   display: flex;
   align-items: center;
-  color: rgb(143, 113, 113);
+  // color: rgb(143, 113, 113);
   margin-bottom: 10px;
 }
 .item-tel-life {
   display: flex;
   align-items: center;
-  color: rgb(143, 113, 113);
 }
+
 .item-mail {
   display: flex;
   align-items: center;
@@ -100,17 +100,22 @@
 }
 .hover {
   color: rgb(143, 113, 113);
-  fill: rgb(143, 113, 113);
+  fill: rgb(213, 194, 194);
   // text-shadow: 1px 8px 7px rgba(0, 0, 0, 0.75);
   transition: 0.5s;
 }
 
 .hover:hover,
 .hover:focus {
-  fill: rgb(64, 61, 255);
-  color: rgb(89, 82, 233);
+  // margin-bottom: 5px;
+  fill: rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
   text-shadow: 0px 8px 12px rgba(153, 0, 0, 0.75);
-  transition: text-shadow 0.4s;
+  transition: text-shadow, 0.3s;
+}
+.push-up:hover,
+.push-up:focus {
+  margin-bottom: 5px;
 }
 .lang {
   display: flex;
