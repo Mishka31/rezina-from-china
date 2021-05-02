@@ -14,11 +14,12 @@
 .hero-title {
   padding-top: 100px;
   font-family: "Comfortaa", cursive;
-  font-size: 18px;
+  font-size: 28px;
   font-weight: 700;
-  // line-height: 1.014;
+  color: #875b45;
   margin-top: -15px;
   letter-spacing: 0em;
+  text-shadow: 0px 4px 12px rgb(160, 104, 44);
 }
 .container-items-order {
   width: 1000px;
@@ -57,7 +58,6 @@
 }
 .hero-items {
   text-align: center;
-  align-items: center;
 }
 .blur {
   height: 100%;

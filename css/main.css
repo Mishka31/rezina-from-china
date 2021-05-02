@@ -116,8 +116,11 @@ a {
 }
 
 .nav-pages-item {
+  height: 50px;
   font-family: "Comfortaa", cursive;
   color: #8f7171;
+  display: flex;
+  align-items: center;
   font-size: 18px;
   font-weight: 700;
   letter-spacing: -0.03em;
@@ -143,7 +146,7 @@ a {
 .contact-name {
   margin-top: 0px;
   font-size: 18px;
-  margin-bottom: 12px;
+  margin-bottom: 8px;
   color: #491212;
 }
 
@@ -151,7 +154,7 @@ a {
   display: flex;
   align-items: center;
   color: #8f7171;
-  margin-bottom: 12px;
+  margin-bottom: 10px;
 }
 
 .item-tel-life {
@@ -160,21 +163,39 @@ a {
   color: #8f7171;
 }
 
-.item-svg-mail {
+.item-mail {
   display: flex;
   align-items: center;
-  font-size: 18px;
-  color: #8f7171;
+  font-size: 20px;
 }
 
 .item-svg {
   margin-right: 8px;
 }
 
+.fff {
+  margin-top: 3px;
+}
+
+.hover {
+  color: #8f7171;
+  fill: #8f7171;
+  transition: 0.5s;
+}
+
 .hover:hover,
 .hover:focus {
-  color: #403dff;
   fill: #403dff;
+  color: #5952e9;
+  text-shadow: 0px 8px 12px rgba(153, 0, 0, 0.75);
+  transition: text-shadow 0.4s;
+}
+
+.lang {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .sad {
@@ -183,9 +204,11 @@ a {
 }
 
 .text-lang {
-  font-family: "Comfortaa", cursive;
+  color: #8f7171;
+  line-height: 1.4;
   font-weight: 700;
   margin: 0;
+  padding: 0;
 }
 
 .hero {
@@ -203,10 +226,12 @@ a {
 .hero-title {
   padding-top: 100px;
   font-family: "Comfortaa", cursive;
-  font-size: 18px;
+  font-size: 28px;
   font-weight: 700;
+  color: #875b45;
   margin-top: -15px;
   letter-spacing: 0em;
+  text-shadow: 0px 4px 12px #a0682c;
 }
 
 .container-items-order {
@@ -248,7 +273,6 @@ a {
 
 .hero-items {
   text-align: center;
-  align-items: center;
 }
 
 .blur {

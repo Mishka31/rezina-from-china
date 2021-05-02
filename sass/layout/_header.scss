@@ -19,14 +19,6 @@
   line-height: 1.014;
   letter-spacing: 0.16em;
 }
-// .title-under-logo {
-//   font-family: "Comfortaa", cursive;
-//   font-size: 18px;
-//   font-weight: 700;
-//   // line-height: 1.014;
-//   margin-top: -15px;
-//   letter-spacing: 0em;
-// }
 .con-log {
   display: flex;
 }
@@ -53,8 +45,11 @@
   align-items: center;
 }
 .nav-pages-item {
+  height: 50px;
   font-family: "Comfortaa", cursive;
   color: rgb(143, 113, 113);
+  display: flex;
+  align-items: center;
   font-size: 18px;
   font-weight: 700;
   letter-spacing: -0.03em;
@@ -76,43 +71,63 @@
 .contact-name {
   margin-top: 0px;
   font-size: 18px;
-  margin-bottom: 12px;
+  margin-bottom: 8px;
   color: rgb(73, 18, 18);
 }
 .item-tel-mts {
   display: flex;
   align-items: center;
   color: rgb(143, 113, 113);
-  margin-bottom: 12px;
+  margin-bottom: 10px;
 }
 .item-tel-life {
   display: flex;
   align-items: center;
   color: rgb(143, 113, 113);
 }
-.item-svg-mail {
+.item-mail {
   display: flex;
   align-items: center;
-  font-size: 18px;
-  color: rgb(143, 113, 113);
+  // font-family: "Comfortaa", cursive;
+  font-size: 20px;
+  // color: rgb(143, 113, 113);
 }
 .item-svg {
   margin-right: 8px;
-  // fill: rgb(40, 133, 255);
+}
+.fff {
+  margin-top: 3px;
+}
+.hover {
+  color: rgb(143, 113, 113);
+  fill: rgb(143, 113, 113);
+  // text-shadow: 1px 8px 7px rgba(0, 0, 0, 0.75);
+  transition: 0.5s;
 }
 
 .hover:hover,
 .hover:focus {
-  color: rgb(64, 61, 255);
   fill: rgb(64, 61, 255);
+  color: rgb(89, 82, 233);
+  text-shadow: 0px 8px 12px rgba(153, 0, 0, 0.75);
+  transition: text-shadow 0.4s;
 }
-
+.lang {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  // vertical-align: middle;
+}
 .sad {
   fill: rgb(143, 113, 113);
   vertical-align: middle;
 }
 .text-lang {
-  font-family: "Comfortaa", cursive;
+  // font-family: "Comfortaa", cursive;
+  color: rgb(143, 113, 113);
+  line-height: 1.4;
   font-weight: 700;
   margin: 0;
+  padding: 0;
 }
