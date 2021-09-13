@@ -9,10 +9,10 @@
   // background: rgba(255, 255, 255, 0.2;
 }
 .hero-title {
-  padding-top: 60px;
+  padding-top: 40px;
   margin-bottom: 0px;
   font-family: "Comfortaa", cursive;
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 700;
   color: #875b45;
   margin-top: -15px;
@@ -20,8 +20,9 @@
   text-shadow: 0px 4px 12px rgb(160, 104, 44);
 }
 .hero-title2 {
-  padding-top: 60px;
+  padding-top: 40px;
   font-family: "Comfortaa", cursive;
+  margin-bottom: 5px;
   font-size: 24px;
   font-weight: 700;
   color: #ff7c3b;
@@ -41,6 +42,8 @@
   justify-content: center;
 }
 .second-wrap {
+  margin-left: -100px;
+  width: 1200px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -62,6 +65,26 @@
   transition: border, opacity 0.5s;
   // transition: box-shadow 0.5s;
 }
+.footerimg {
+  width: 500px;
+  height: 300px;
+  border-radius: 30%;
+  opacity: 70%;
+  box-shadow: 0 0px 0px rgba(0, 0, 0, 0.9);
+  border: 20px solid rgba(248, 176, 21, 0.1);
+  transition: border, opacity 0.5s;
+}
+.sec {
+  margin-top: 30px;
+  width: 221px;
+  height: 221px;
+  margin-bottom: 20px;
+  border-radius: 30%;
+  opacity: 70%;
+  box-shadow: 0 0px 0px rgba(0, 0, 0, 0.9);
+  border: 20px solid rgba(248, 176, 21, 0.1);
+  transition: border, opacity 0.5s;
+}
 .product-link:hover {
   opacity: 90%;
   border: 0px solid rgba(248, 176, 21, 0.1);
@@ -77,7 +100,8 @@
 }
 .titleh3 {
   width: 211px;
-  border-radius: 30%;
+  border-radius: 10%;
+  font-size: 18px;
   margin: 0;
   color: #704936;
   text-shadow: 0px 4px 12px #a0682c;
@@ -89,4 +113,13 @@
   border-radius: 30%;
   margin-top: 8px;
   background-color: rgba(255, 255, 255, 0.459);
+}
+.aboutTitle {
+  display: grid;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
+.price {
+  text-decoration: line-through;
 }
