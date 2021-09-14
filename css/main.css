@@ -28,7 +28,6 @@ a {
   margin-right: auto;
   margin-left: auto;
   padding: 0px 15px;
-  width: 1200px;
 }
 
 :root {
@@ -211,11 +210,10 @@ a {
 }
 
 .hero {
-  width: 100%;
-  height: 100%;
+  background-repeat: no-repeat;
   background-image: url(../img/hero/hero1200.png);
-  background-size: 100% 100%;
-  background-position: unset;
+  background-size: 2000px 100%;
+  background-position: center;
 }
 
 .hero-title {
@@ -243,7 +241,6 @@ a {
 }
 
 .container-items-order {
-  width: 1000px;
   margin-right: auto;
   margin-left: auto;
   padding-left: 0px;
@@ -257,7 +254,6 @@ a {
 
 .second-wrap {
   margin-left: -100px;
-  width: 1200px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
