@@ -108,6 +108,7 @@ a {
   width: 400px;
   padding: 0;
   margin: 0px;
+  padding-left: 8px;
   align-items: center;
 }
 
@@ -129,6 +130,7 @@ a {
 .nav-contacts {
   margin: 0px;
   margin-top: auto;
+  padding-left: 20px;
   margin-bottom: auto;
 }
 
@@ -136,7 +138,7 @@ a {
   margin: 0px;
   margin-top: auto;
   margin-bottom: auto;
-  padding-left: 45px;
+  padding-left: 25px;
 }
 
 .contact-name {
@@ -192,6 +194,7 @@ a {
 .lang {
   display: flex;
   flex-direction: column;
+  padding-left: 10px;
   align-items: center;
   justify-content: center;
 }
@@ -249,6 +252,9 @@ a {
 .first-wrap {
   display: flex;
   flex-wrap: wrap;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
   justify-content: center;
 }
 

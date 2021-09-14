@@ -42,6 +42,7 @@
   width: 400px;
   padding: 0;
   margin: 0px;
+  padding-left: 8px;
   align-items: center;
 }
 .nav-pages-item {
@@ -60,13 +61,14 @@
 .nav-contacts {
   margin: 0px;
   margin-top: auto;
+  padding-left: 20px;
   margin-bottom: auto;
 }
 .nav-contact-mail {
   margin: 0px;
   margin-top: auto;
   margin-bottom: auto;
-  padding-left: 45px;
+  padding-left: 25px;
 }
 .contact-name {
   margin-top: 0px;
@@ -120,6 +122,7 @@
 .lang {
   display: flex;
   flex-direction: column;
+  padding-left: 10px;
   align-items: center;
   justify-content: center;
   // vertical-align: middle;

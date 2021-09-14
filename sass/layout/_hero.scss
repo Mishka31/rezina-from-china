@@ -36,6 +36,9 @@
 .first-wrap {
   display: flex;
   flex-wrap: wrap;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
   justify-content: center;
 }
 .second-wrap {
